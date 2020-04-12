@@ -11,3 +11,6 @@ uname -r
 free -m
 iostat
 cat /etc/os-release
+sar -r
+uname -a
+nproc
