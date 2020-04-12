@@ -11,6 +11,9 @@ uname -r
 free -m
 iostat
 cat /etc/os-release
+cat /etc/meminfo
+cat /etc/cpuinfo
+lsb_release -a
 sar -r
 uname -a
 nproc
